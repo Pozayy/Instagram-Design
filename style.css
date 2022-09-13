@@ -1,0 +1,608 @@
+*, ::after, ::before 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body 
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+input 
+{
+    outline: none;
+}
+
+
+.container 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 88px;
+}
+.container-all-telephone 
+{
+    position: relative;
+    top: 56px;
+    margin: 27px 0 0 113px;
+}
+#left-telephone 
+{
+    width: 459px;
+    height: 635px;
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+    background-repeat: no-repeat;
+    background-size: 469px 635px;
+}
+#right-telephone 
+{
+    position: absolute;
+    top: 27px;
+    left: 159px;
+}
+.right-telephone 
+{
+    width: 250px;
+    height: 539px;
+}
+
+#container-all-connexion
+{
+    margin-top: 92px;
+}
+#container-connexion 
+{
+    width: 350px;
+    height: 396px;
+    padding: 10px 0;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-items: center;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#instagram 
+{
+    width: 175px;
+    height: 51px;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    margin-right: 2px;
+}
+.instagram 
+{
+    width: 175px;
+    height: 51px;
+}
+#pseudo 
+{
+    width: 268px;
+    height: 38px;
+    margin: 24px 40px 6px 40px;
+    font-size: 14px;
+}
+.pseudo 
+{
+    width: 268px;
+    height: 38px;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px 0 8px 8px;
+    background-color: #fafafa;
+}
+.pseudo::placeholder
+{
+    color: rgb(142, 142, 142);
+}
+.pseudo:focus,
+.pseudo:active 
+{
+    border: 1px solid rgba(142, 142, 142, 0.65);
+}
+#mdp 
+{
+    width: 268px;
+    height: 38px;
+    margin: 0 40px 6px 40px;
+}
+.mdp
+{
+    width: 268px;
+    height: 38px;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px 0 8px 8px;
+    background-color: #fafafa;
+}
+.mdp::placeholder 
+{
+    color: rgb(142, 142, 142);
+    line-height: 36px;
+    overflow: hidden;
+    pointer-events: none;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    font-size: 12px;
+    transform-origin: left;
+    user-select: none;
+    white-space: nowrap;
+}
+.mdp:focus,
+.mdp:active 
+{
+    border: 1px solid rgba(142, 142, 142, 0.65);
+}
+
+#btn-connecter
+{
+    padding: 8px 9px;
+}
+.btn-connecter 
+{
+    width: 268px;
+    height: 30px;
+    background-color: rgba(var(--d69,0,149,246),.3);
+    border: none;
+    color: #fff;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 4px;
+    padding-bottom: 1px;
+}
+
+#ligne 
+{
+    margin: 10px 40px 18px;
+    display: flex;
+}
+.ligne1
+{
+    width: 106.52px;
+    height: 1px;
+    background-color: rgba(var(--b38,219,219,219),1);
+    position: relative;
+    top: 6.3px;
+}
+.ou 
+{
+    width: 18.97px;
+    height: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    color: #8E8E8E;
+}
+.ligne2
+{
+    width: 106.52px;
+    height: 1px;
+    background-color: rgba(var(--b38,219,219,219),1);
+    position: relative;
+    top: 6.3px;
+}
+
+#facebook 
+{
+    position: relative;
+    margin-top: 7px;
+    margin-right: 40px;
+    margin-bottom: 8px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.logo-facebook 
+{
+    display: inline-block;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+    height: 16px;
+    width: 16px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+}
+.facebook 
+{
+    color: #385185;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+
+#mdpforgot 
+{
+    display: flex;
+    margin-top: 12px;
+    position: relative;
+    margin-right: 1px;
+}
+.mdpforgot 
+{
+    display: flex;
+    position: relative;
+    font-size: 12px;
+    color: rgba(var(--fe0,0,55,107),1);
+}
+
+#container-all-inscrire
+{
+    width: 350px;
+    height: 63px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.noaccount
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(38, 38, 38); 
+}
+.inscrire 
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(var(--d69,0,149,246),1);
+    margin-left: 4px;
+}
+
+
+#container-all-telecharger 
+{
+    width: 350px;
+    height: 102px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 9px;
+
+}
+.telecharger 
+{
+    font-size: 14px;
+    margin: 10px 20px;
+}
+#photo 
+{
+    margin: 10px 0;
+}
+.photo1 
+{
+    margin-right: 4px;
+}
+
+
+
+#container-all-1er 
+{
+    width: 1903px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 107px;
+}
+#container-1er 
+{
+    width: 1903px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.meta 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.propos 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.blog 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.emplois 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.aide 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.api 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.confidentialite
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.conditions 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.compte-p
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.hashtag
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.lieux 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.insta-l
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.importation 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#container-all-2e
+{
+    width: 1903px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#container-2e
+{
+    width: 1903px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.danse 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding: 8px;
+}
+.alimentation 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding: 8px;
+}
+.maison 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding: 8px;
+}
+.musique 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding: 8px;
+}
+.arts 
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding: 8px;
+}
+
+
+#container-all-3e
+{
+    width: 1903px;
+    height: 20px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#container-3e
+{
+    width: 1903px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.francais
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-right: 4px;
+    padding-bottom: 18px;
+    padding-left: 9px;
+}
+.logo 
+{
+    transform: rotate(180deg);
+    padding-top: 9px;
+}
+.fin
+{
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    padding-top: 8px;
+    padding-right: 9px;
+    padding-bottom: 18px;
+    padding-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
